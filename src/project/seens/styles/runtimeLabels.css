@@ -1,0 +1,8 @@
+.label{
+    -fx-background-color: white;
+    -fx-font-size: 16;
+    -fx-font-family: "Comic Sans MS";
+    -fx-text-fill: black;
+    -fx-padding: 0 0 0 7;
+    -fx-min-height: 28;
+}

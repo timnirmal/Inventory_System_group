@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="429.0" prefWidth="635.0" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.frames.staff.ShowStaff">
+   <children>
+      <TableView fx:id="staffTable" layoutX="36.0" layoutY="94.0" prefHeight="297.0" prefWidth="563.0" stylesheets="@../styles/table.css">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Item ID" />
+          <TableColumn prefWidth="82.0" text="Item Name" />
+            <TableColumn prefWidth="74.0" text="No Of Items" />
+            <TableColumn prefWidth="84.0" text="Retail price" />
+            <TableColumn prefWidth="71.0" text="Discounts" />
+            <TableColumn prefWidth="92.0" text="Promotions" />
+            <TableColumn prefWidth="82.0" text="Final Price" />
+        </columns>
+      </TableView>
+      <Label layoutX="229.0" prefHeight="68.0" prefWidth="175.0" stylesheets="@../styles/Title.css" text="Show Items" textAlignment="CENTER" textFill="#c62121">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

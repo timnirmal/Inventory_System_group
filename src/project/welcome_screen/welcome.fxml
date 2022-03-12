@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="747.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.welcome_screen.welcome">
+<right>
+    <AnchorPane prefHeight="520.0" prefWidth="500.0" style="-fx-background-color: #263F73;" BorderPane.alignment="CENTER">
+        <children>
+            <ImageView fitHeight="496.0" fitWidth="247.0" layoutX="10.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+        </children></AnchorPane>
+</right>
+<left>
+    <AnchorPane prefHeight="520.0" prefWidth="474.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+        <children>
+            <Label layoutX="29.0" layoutY="165.0" prefHeight="46.0" prefWidth="181.0" text="Username " textAlignment="RIGHT">
+                <font>
+                    <Font size="23.0" />
+                </font>
+            </Label>
+            <TextField fx:id="usernameTF" layoutX="175.0" layoutY="160.0" prefHeight="34.0" prefWidth="194.0" promptText="Employee ID">
+                <font>
+                    <Font size="26.0" />
+                </font>
+            </TextField>
+            <Label layoutX="29.0" layoutY="248.0" prefHeight="46.0" prefWidth="181.0" text="Password" textAlignment="RIGHT">
+                <font>
+                    <Font size="23.0" />
+                </font>
+            </Label>
+            <Button fx:id="logButton" layoutX="67.0" layoutY="344.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="56.0" prefWidth="318.0" style="-fx-background-color: #263F73;" text="Login" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <PasswordField fx:id="pWTF" layoutX="172.0" layoutY="246.0" prefHeight="50.0" prefWidth="199.0" />
+            <Label fx:id="welcomeLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="72.0" layoutY="58.0" prefHeight="46.0" prefWidth="329.0" textAlignment="CENTER" textFill="RED" textOverrun="CLIP" wrapText="true">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+        </children></AnchorPane>
+</left>
+</BorderPane>
